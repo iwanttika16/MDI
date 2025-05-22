@@ -1,0 +1,22 @@
+mdi-website/
+│
+├── public/                  # Public-facing static files
+│   ├── index.html           # Main HTML file
+│   ├── css/                 # All custom stylesheets
+│   │   └── styles.css
+│   ├── js/                  # All JavaScript files
+│   │   └── scripts.js
+│   ├── images/              # All media assets
+│   │   └── logo.png
+│
+├── components/              # Optional: Reusable HTML components (e.g. navbar, footer)
+│   └── navbar.html
+│
+├── backend/                 # If using Node.js/PHP for dynamic features
+│   ├── server.js
+│   └── routes/
+│       └── contactForm.js
+│
+├── .gitignore               # Git version control ignore file
+├── README.md                # Project documentation
+└── package.json             # Node.js project dependencies (if used)
